@@ -14,3 +14,8 @@ def assign_rooms(array)
   array.each_with_index {|speaker, i| welcome_message.push("Hello, #{speaker}! You'll be assigned to room #{i+1}!")}
   welcome_message
 end 
+
+def printer
+  puts badge_maker
+  puts assign_rooms
+end 
