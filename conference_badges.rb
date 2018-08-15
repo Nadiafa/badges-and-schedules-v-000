@@ -8,3 +8,7 @@ def batch_badge_creator(array)
   array.each {|badge| badges.push(badge_maker(badge))}
   badges
 end 
+
+def assign_rooms(array, room_number)
+  room_number = array
+end 
