@@ -12,4 +12,5 @@ end
 def assign_rooms(array)
   welcome_message = []
   array.each_with_index {|speaker, i| welcome_message.push("Hello, #{speaker}! You'll be assigned to room #{i+1}!")}
+  welcome_message
 end 
