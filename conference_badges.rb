@@ -15,7 +15,7 @@ def assign_rooms(array)
   welcome_message
 end 
 
-def printer
+def printer(array)
   puts batch_badge_creator
   puts assign_rooms
 end 
